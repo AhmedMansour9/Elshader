@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">الشادر</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="pass">الرقم السري</string>
+    <string name="sign_in">تسجيل</string>
+    <string name="login">تسجيل دخول</string>
+
+</resources>

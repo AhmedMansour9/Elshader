@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">الشادر</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="login">Login</string>
+
+</resources>
