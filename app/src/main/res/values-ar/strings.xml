@@ -6,5 +6,19 @@
     <string name="pass">الرقم السري</string>
     <string name="sign_in">تسجيل</string>
     <string name="login">تسجيل دخول</string>
+    <string name="fill_input">أملئ الحقول الفارغة</string>
+    <string name="validate_Email">رجاء قم بإدخال بريد الكتروني صحيح</string>
+    <string name="pasweak">الرقم السري ضعيف</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="wantlogout">هل تريد تسجيل خروج ؟</string>
+    <string name="home">الرئيسية</string>
+    <string name="title">الشــــادر</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seller_name">أسم الجليــب</string>
+    <string name="boxes_count">عدد العدايـات</string>
+    <string name="add_box">أضــف عدايــة</string>
+    <string name="send">اّرســال</string>
+    <string name="exit_message">هل تريد الخروج ؟</string>
 
 </resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Addgood">
+
+
+    <fragment
+        android:id="@+id/nav_Addgood"
+        android:name="com.elshader.ui.addgoods.AddGoodsFragment"
+        android:label="AddGoodsFragment" />
+    <fragment
+        android:id="@+id/nav_AddTrader"
+        android:name="com.elshader.ui.addtrader.AddTraderFragment"
+        tools:layout="@layout/fragment_add_trader" />
+    <fragment
+        android:id="@+id/nav_Filter"
+        android:name="com.elshader.ui.filtertion.FiltertionFragment"
+        tools:layout="@layout/fragment_filtertion" />
+    <fragment
+        android:id="@+id/nav_Traders"
+        android:name="com.elshader.ui.traders.TradersFragment"
+        tools:layout="@layout/fragment_traders" />
+</navigation>

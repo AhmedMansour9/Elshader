@@ -3,17 +3,19 @@ package com.elshader.utils
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.SharedPreferences
+import android.util.Log
 
-class SharedData {
+class SharedData @SuppressLint("CommitPrefEdits") constructor(context: Context) {
     private var preferences: SharedPreferences? = null
     private var editor: SharedPreferences.Editor? = null
-    constructor(context: Context) {
+
+    init {
         preferences = context.getSharedPreferences("shader", Context.MODE_PRIVATE)
         editor = preferences?.edit()
     }
 
 
-
+    @Suppress("UNCHECKED_CAST")
     fun <V> getValue(returnValue: ReturnValue?, key: String?): V? {
         var vs: V? = null
         when (returnValue) {
@@ -26,23 +28,25 @@ class SharedData {
     }
 
     fun <V> putValue(key: String?, value: V) {
-        if (value == Int::class.java) {
+        if (value is Int) {
             val i = value as Int
             editor?.putInt(key, i)
             editor?.apply()
-        } else if (value == String::class.java) {
+        } else if (value is String) {
             val i = value as String
+            Log.d("TTTTTOJKEN", "putValue: " + i)
             editor?.putString(key, i)
             editor?.apply()
-        } else if (value == Float::class.java) {
+
+        } else if (value is Float) {
             val x = value as Float
             editor?.putFloat(key, x)
             editor?.apply()
-        } else if (value == Boolean::class.java) {
+        } else if (value is Boolean) {
             val x = value as Boolean
             editor?.putBoolean(key, x)
             editor?.apply()
-        } else if (value == Long::class.java) {
+        } else if (value is Long) {
             val x = value as Long
             editor?.putLong(key, x)
             editor?.apply()

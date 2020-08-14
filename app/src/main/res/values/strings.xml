@@ -4,5 +4,32 @@
     <string name="pass">Password</string>
     <string name="sign_in">SIGN IN</string>
     <string name="login">Login</string>
+    <string name="fill_input">من فضلك املئ الحقول الفارغة</string>
+    <string name="validate_Email">رجاء قم بإدخال بريد الكتروني صحيح</string>
+    <string name="pasweak">الرقم السري ضعيف</string>
+    <string name="home">الرئيسية</string>
+    <string name="title">الشــــادر</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seller_name">أسم الجليــب</string>
+    <string name="boxes_count">عدد العدايـات</string>
+    <string name="add_box">أضــف عدايــة</string>
+    <string name="send">اّرســال</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="wantlogout">هل تريد تسجيل خروج ؟</string>
+    <string name="exit_message">هل تريد الخروج ؟</string>
+    <string name="add_trader">أضــف تــاجــر</string>
+    <string name="trader_name">أسم التاجر</string>
+    <string name="region">المنطقة</string>
+    <string name="phone">رقم التليفون</string>
+    <string name="money_indepeted">المديونية المالية</string>
+    <string name="boxes_indebted">مديونية العدايـات</string>
+    <string name="sealing">عمـلـيـة بيــع</string>
+    <string name="boxe_price">سعر العداية</string>
+    <string name="total_paid">المبلغ المدفوع</string>
+    <string name="bets">الرهان</string>
+    <string name="addgood_succes">تم أضافة العدايات بنجاح</string>
+    <string name="addtrader_succes">تم أضافة التاجر بنجاح</string>
 
 </resources>

@@ -7,5 +7,6 @@
     <color name="grey_40">#D1D1D1</color>
     <color name="blue_600">#1E88E5</color>
     <color name="grey_60">#5d74e2</color>
+    <color name="white">#fff</color>
 
 </resources>

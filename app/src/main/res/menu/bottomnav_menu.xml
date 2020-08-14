@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/nav_AddTrader"
+        android:enabled="true"
+        android:title="أضف تاجر"
+        android:icon="@drawable/add_user"
+        />
+
+
+    <item
+        android:id="@+id/nav_Addgood"
+        android:enabled="true"
+        android:title="أضف عداية"
+        android:icon="@drawable/ic_goods"
+        />
+    <item
+        android:enabled="true"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+
+
+
+    <item
+        android:id="@+id/nav_Filter"
+        android:enabled="true"
+        android:icon="@drawable/ic_fiter"
+        android:title="البحث"
+        app:showAsAction="ifRoom"/>
+
+
+
+    <item
+        android:id="@+id/nav_Traders"
+        android:enabled="true"
+        android:icon="@drawable/ic_traders"
+        android:title="التجار"
+        app:showAsAction="ifRoom"/>
+
+
+
+<!--    <item android:icon="@drawable/home"-->
+<!--        android:title="@string/home"-->
+<!--        android:id="@+id/nav_home"-->
+<!--        app:itemHorizontalTranslationEnabled="false"-->
+<!--        />-->
+<!--    <item android:icon="@drawable/ic_categories"-->
+<!--        android:title="@string/categories"-->
+<!--        android:id="@+id/T_Categories"-->
+<!--        app:itemHorizontalTranslationEnabled="false"-->
+<!--        />-->
+
+
+</menu>
